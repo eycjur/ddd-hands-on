@@ -1,0 +1,24 @@
+{
+    "name": "Existing Docker Compose (Extend)",
+    "dockerComposeFile": [
+      "../docker-compose.yml",
+      "./docker-compose.override.yml"
+    ],
+    "service": "app",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "overrideCommand": true,
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          // vscode全体
+          "ceintl.vscode-language-pack-ja",
+          "mhutchie.git-graph",
+          "github.copilot",
+          "mosapride.zenkaku",
+          "gruntfuggly.todo-tree"
+        ]
+      }
+    }
+  }
+  
